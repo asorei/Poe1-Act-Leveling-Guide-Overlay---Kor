@@ -19,8 +19,18 @@ https://www.autohotkey.com/
 제가 작업한 버전은 Settlers of Kalguur Release 버전입니다.
 
 https://github.com/JusKillmeQik/PoE-Leveling-Guide/releases
->해당 버전의 소스코드를 다운받은 후 압축을 풀고 해당 폴더에 소스코드를 붙여넣기해서 덮어쓰고 LevelingGuide.ahk 을 실행하면 됩니다.
+>해당 버전의 소스코드를 다운받은 후 압축을 풉니다.
 
+https://github.com/asorei/Poe1-Act-Leveling-Guide-Overlay---Kor/releases
+>위 폴더에 제가 올린 소스코드를 붙여넣기해서 덮어쓰고 LevelingGuide.ahk 을 실행하면 됩니다.
+
+
+https://github.com/Chuanhsing/PoeCharm/tree/main/PoeCharm/Fonts
+
+폰트는 제가 한글POB인 PoeCharm을 쓰고 있어서 FZ_ZY.ttf 폰트를 기본값으로 설정해놓았습니다.
+
+@한글 버전은 Korea(숙련자), KoreaDetailed(초급자) 두개가 있습니다.
+>기본값은 초급자용이고 오른쪽 하단 트레이아이콘에서 설정창(Setting) 이동 후 우상단에서 KoreanDetailed->Browe 버튼을 통해 바꿀 수 있습니다.
 
 @액트 레벨링 가이드를 제외한 부분은 제거했습니다.
 
