@@ -29,7 +29,7 @@ https://github.com/Chuanhsing/PoeCharm/tree/main/PoeCharm/Fonts
 
 폰트는 제가 한글POB인 PoeCharm을 쓰고 있어서 FZ_ZY.ttf 폰트를 기본값으로 설정해놓았습니다.
 
-@한글 버전은 Korea(숙련자), KoreaDetailed(초급자) 두개가 있습니다.
+@한글 버전은 Korean(숙련자), KoreanDetailed(초급자) 두개가 있습니다.
 >기본값은 초급자용이고 오른쪽 하단 트레이아이콘에서 설정창(Setting) 이동 후 우상단에서 KoreanDetailed->Browse 버튼을 통해 바꿀 수 있습니다.
 
 @액트 레벨링 가이드를 제외한 부분은 제거했습니다.
