@@ -204,9 +204,10 @@ SearchLog() {
                 StringTrimLeft, zoneSearch, newZone, 3                              
                 IfInString, newLogLines, %zoneSearch%
                 {
-		  If (zoneSearch = "부두")
+	          If (zoneSearch = "부두")
                   {
-                    IfInString, newLogLines, "오리아스 부두"
+                    tst := "오리아스 부두"
+                    IfInString, newLogLines, %tst%
                       break
                   }
                   If (newAct != CurrentAct) 
