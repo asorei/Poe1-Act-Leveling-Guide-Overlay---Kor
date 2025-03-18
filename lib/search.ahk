@@ -58,6 +58,8 @@ RotateZone(direction, zones, act, current) {
     Return newZone
 }
 
+; global checkZone := {"부두":"오리아스 부두"}
+
 SearchLog() {
   global
   ;Only bother checking if the newLogLines has changed or someone manually changed Part
@@ -202,6 +204,11 @@ SearchLog() {
                 StringTrimLeft, zoneSearch, newZone, 3                              
                 IfInString, newLogLines, %zoneSearch%
                 {
+		  If (zoneSearch = "부두")
+                  {
+                    IfInString, newLogLines, "오리아스 부두"
+                      break
+                  }
                   If (newAct != CurrentAct) 
                   {
                     GuiControl, Controls:Choose, CurrentAct, % "|" newAct
