@@ -286,7 +286,7 @@ GetRightOrLeft(direction) {
 
 GetFont(font) {
   dList := ""
-  fontList := ["Arial", "Corbel", "Comic Sans MS", "Consolas", "Georgia", "Segoe UI", "Times New Roman", "Verdana", "ZhunYuan"]
+  fontList := ["Arial", "Corbel", "Comic Sans MS", "Consolas", "맑은 고딕", "바탕", "돋움", "굴림", "ZhunYuan"]
   For k, someFont in fontList {
     dList .= someFont . "|"
     If (someFont = font) {
