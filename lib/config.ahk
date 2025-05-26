@@ -46,6 +46,7 @@ global KeyHideTree := ""
 global KeyHideAtlas := ""
 global KeyHideGems := ""
 
+global KeyHideout := "f4"
 global KeyExit := "f5"
 global Key3Link := "f6"
 global Key4Link := "f7"
