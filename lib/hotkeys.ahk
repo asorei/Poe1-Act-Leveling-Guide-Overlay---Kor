@@ -110,6 +110,10 @@ ToggleTree() {
   Send %KeyHideTree%
 }
 
+If (KeyHideout != "") {
+  Hotkey % KeyHideout, PasteHideout
+}
+
 If (KeyExit != "") {
   Hotkey % KeyExit, PasteExit
 }
@@ -120,6 +124,10 @@ If (Key3Link!= "") {
 
 If (Key4Link!= "") {
   Hotkey % Key4Link, Paste4Link
+}
+
+PasteHideout() {
+  A_Clipboard := "/hideout"
 }
 
 PasteExit() {
