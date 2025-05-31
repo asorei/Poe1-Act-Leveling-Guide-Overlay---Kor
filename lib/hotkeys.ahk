@@ -128,19 +128,28 @@ If (Key4Link!= "") {
 
 PasteHideout() {
   A_Clipboard := "/hideout"
+;  SendInput, {enter}^v{enter}
 }
 
 PasteExit() {
   A_Clipboard := "/exit"
+;  SendInput, {enter}^v{enter}
 }
 
 Paste3Link() {
   A_Clipboard := "-\w-|이동"
+;  SendInput, ^f^v{enter}
 }
 
 Paste4Link() {
   A_Clipboard := "-\w-.-"
+;  SendInput, ^f^v{enter}
 }
+
+f9::
+  A_Clipboard := "/played"
+;  SendInput, {enter}^v{enter}
+return
 
 If (KeyHideAtlas != "") {
   Hotkey % KeyHideAtlas, ToggleAtlas
