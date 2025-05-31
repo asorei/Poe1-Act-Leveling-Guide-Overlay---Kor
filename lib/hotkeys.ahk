@@ -126,6 +126,10 @@ If (Key4Link!= "") {
   Hotkey % Key4Link, Paste4Link
 }
 
+If (KeyPlayed!= "") {
+  Hotkey % KeyPlayed, PastePlayed
+}
+
 PasteHideout() {
   A_Clipboard := "/hideout"
 ;  SendInput, {enter}^v{enter}
@@ -144,6 +148,11 @@ Paste3Link() {
 Paste4Link() {
   A_Clipboard := "-\w-.-"
 ;  SendInput, ^f^v{enter}
+}
+
+PastePlayed() {
+  A_Clipboard := "/played"
+;  SendInput, {enter}^v{enter}
 }
 
 If (KeyHideAtlas != "") {
