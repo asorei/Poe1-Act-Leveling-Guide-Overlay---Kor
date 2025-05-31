@@ -50,6 +50,7 @@ global KeyHideout := "f4"
 global KeyExit := "f5"
 global Key3Link := "f6"
 global Key4Link := "f7"
+global KeyPlayed := "f9"
 
 global KeyShowSyndicate := ""
 global KeyShowTemple := ""
