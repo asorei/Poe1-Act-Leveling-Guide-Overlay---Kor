@@ -146,11 +146,6 @@ Paste4Link() {
 ;  SendInput, ^f^v{enter}
 }
 
-f9::
-  A_Clipboard := "/played"
-;  SendInput, {enter}^v{enter}
-return
-
 If (KeyHideAtlas != "") {
   Hotkey % KeyHideAtlas, ToggleAtlas
 }
